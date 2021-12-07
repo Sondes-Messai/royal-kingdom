@@ -1,0 +1,97 @@
+body{
+    background:#f9f9f9;
+    margin: 0px;
+}
+
+table, th, td {
+   border:1px solid black;
+   text-align: center;
+ }
+
+ .content{
+     padding: 12px;
+    margin-top: 15px;
+     margin-left: 5%;
+     margin-right: 5%;
+     position: relative;
+     display: -ms-flexbox;
+     display: flex;
+     -ms-flex-direction: column;
+     flex-direction: column;
+     min-width: 0;
+     word-wrap: break-word;
+     background-color: #fff;
+     background-clip: border-box;
+     border: 1px solid rgba(0,0,0,.125);
+     border-radius: 0.25rem;
+     margin-bottom: 15px;
+     border-radius: 0;
+     box-shadow: 0 3px 5px rgb(0 0 0 / 10%);
+ }
+
+ .content .welcome{
+     background-image: url('../img/clch.jpeg') no;
+     height: 400px;
+     width: 100%;
+ }
+ .content .welcome h1{
+    vertical-align:middle;
+    margin-top: 20%;
+    
+    margin-left: 20%;
+    font-size: 2em;
+    font-weight: bold;
+    
+}
+ .header {
+
+ }
+ .header ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+     background-color: #343a40!important;
+ }
+
+ .header ul li img {
+   width:45px;
+   height:45px;
+   }
+
+ .header ul li {
+     float: left;
+ }
+
+ .header ul li a {
+     display: block;
+     color: white;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+ }
+
+ .header ul li a:hover:not(.active) {
+     background-color: #111;
+ }
+
+ .header ul .active {
+     background-color: #4CAF50;
+ }
+
+ #listeRoyal {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#listeRoyal li {
+    width: 30%;
+    float: left;
+    margin: 5px;
+}
+#listeRoyal li img {
+    width: 100%;
+    
+}
